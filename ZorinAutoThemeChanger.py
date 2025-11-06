@@ -7,9 +7,9 @@ import subprocess
 import time
 
 def get_manual_location():
-    latitude = 26.480730  
-    longitude = 89.526649  
-    timezone = "Asia/Kolkata"   
+    latitude = None 
+    longitude = None
+    timezone = None   
 
     if None not in (latitude, longitude, timezone):
         return latitude, longitude, timezone
