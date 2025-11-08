@@ -24,9 +24,9 @@ TIMER_PATH = USER_SYSTEMD_DIR / f"{UNIT_BASENAME}.timer"
 
 def get_manual_location():
     # Fill these if you prefer a fixed location
-    latitude = 26.480730  
-    longitude = 89.526649  
-    timezone = "Asia/Kolkata" 
+    latitude = None 
+    longitude = None 
+    timezone = None 
     if None not in (latitude, longitude, timezone):
         return latitude, longitude, timezone
     return None
